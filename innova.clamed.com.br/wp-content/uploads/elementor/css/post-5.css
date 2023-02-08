@@ -1,0 +1,131 @@
+.elementor-kit-5 {
+    --e-global-color-clamed-0: #31955f;
+    --e-global-color-primary: #31955f;
+    --e-global-color-secondary: #1b4a2f;
+    /* --e-global-color-primary: #199FC2;
+    --e-global-color-secondary: #C2CD2A; */
+    --e-global-color-text: #707070;
+    --e-global-color-accent: #E37235;
+    --e-global-color-4a9eb56: #77C0AD;
+    --e-global-typography-primary-font-family: "Signika";
+    --e-global-typography-primary-font-size: 42px;
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-primary-line-height: 46px;
+    --e-global-typography-secondary-font-family: "Signika";
+    --e-global-typography-secondary-font-size: 40px;
+    --e-global-typography-secondary-font-weight: 500;
+    --e-global-typography-text-font-family: "Signika";
+    --e-global-typography-text-font-size: 18px;
+    --e-global-typography-text-font-weight: 300;
+    --e-global-typography-text-line-height: 26px;
+    --e-global-typography-accent-font-family: "Nunito Sans";
+    --e-global-typography-accent-font-size: 18px;
+    --e-global-typography-accent-font-weight: 700;
+    --e-global-typography-b152dff-font-family: "Signika";
+    --e-global-typography-b152dff-font-size: 26px;
+    --e-global-typography-b152dff-font-weight: 400;
+    --e-global-typography-b152dff-line-height: 35px;
+    --e-global-typography-f3603cc-font-family: "Signika";
+    --e-global-typography-f3603cc-font-size: 20px;
+    --e-global-typography-f3603cc-font-weight: 300;
+    --e-global-typography-f3603cc-line-height: 26px;
+    --e-global-typography-351b1f7-font-family: "Signika";
+    --e-global-typography-351b1f7-font-size: 24px;
+    --e-global-typography-351b1f7-font-weight: 500;
+    --e-global-typography-351b1f7-line-height: 26px;
+    --e-global-typography-cc145d9-font-family: "Signika";
+    --e-global-typography-cc145d9-font-size: 22px;
+    --e-global-typography-cc145d9-font-weight: 400;
+    --e-global-typography-cc145d9-line-height: 28px;
+}
+
+.elementor-kit-5 h1 {
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-size: var(--e-global-typography-secondary-font-size);
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.elementor-kit-5 button,
+.elementor-kit-5 input[type="button"],
+.elementor-kit-5 input[type="submit"],
+.elementor-kit-5 .elementor-button {
+    border-radius: 4px 4px 4px 4px;
+    padding: 8px 16px 8px 16px;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1366px;
+}
+
+.e-container {
+    --container-max-width: 1366px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px;
+}
+
+    {}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-5 e-page-transition {
+    background-color: #FFBC7D;
+}
+
+@media(max-width:1024px) {
+    .elementor-kit-5 h1 {
+        font-size: var(--e-global-typography-secondary-font-size);
+    }
+
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+
+    .e-container {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-kit-5 {
+        --e-global-typography-primary-font-size: 24px;
+        --e-global-typography-primary-line-height: 30px;
+        --e-global-typography-secondary-font-size: 26px;
+        --e-global-typography-secondary-line-height: 40px;
+        --e-global-typography-text-font-size: 16px;
+        --e-global-typography-text-line-height: 22px;
+        --e-global-typography-b152dff-font-size: 16px;
+        --e-global-typography-b152dff-line-height: 21px;
+        --e-global-typography-f3603cc-font-size: 16px;
+        --e-global-typography-351b1f7-font-size: 20px;
+        --e-global-typography-351b1f7-line-height: 27px;
+        --e-global-typography-cc145d9-font-size: 18px;
+        --e-global-typography-cc145d9-line-height: 24px;
+    }
+
+    .elementor-kit-5 h1 {
+        font-size: var(--e-global-typography-secondary-font-size);
+    }
+
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+
+    .e-container {
+        --container-max-width: 767px;
+    }
+}
+
+/* Start custom CSS */
+.d-none {
+    display: none !important;
+}
+
+/* End custom CSS */
